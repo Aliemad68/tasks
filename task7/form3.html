@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+</head>
+
+<body>
+
+    <form method="GET">
+        <input type="hidden" id="token" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="o@o.com" readonly><br><br>
+
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="5" maxlength="20" autofocus><br><br>
+
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" id="problem-solving" name="skills" value="Problem Solving" checked>
+            <label for="problem-solving">Problem Solving</label><br>
+
+            <input type="checkbox" id="logical-thinking" name="skills" value="Logical Thinking">
+            <label for="logical-thinking">Logical Thinking</label><br>
+
+            <input type="checkbox" id="advanced-search" name="skills" value="Advanced Search">
+            <label for="advanced-search">Advanced Search</label><br>
+
+            <input type="checkbox" id="analysis" name="skills" value="Analysis">
+            <label for="analysis">Analysis</label><br>
+
+            <input type="checkbox" id="planning" name="skills" value="Planning">
+            <label for="planning">Planning</label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Job:</legend>
+            <input type="radio" id="front-end" name="job" value="Front-End Developer" checked>
+            <label for="front-end">Front-End Developer</label><br>
+
+            <input type="radio" id="back-end" name="job" value="Back-End Developer">
+            <label for="back-end">Back-End Developer</label><br>
+
+            <input type="radio" id="business-analyst" name="job" value="Business Analyst">
+            <label for="business-analyst">Business Analyst</label><br>
+
+            <input type="radio" id="project-manager" name="job" value="Project Manager">
+            <label for="project-manager">Project Manager</label><br>
+
+            <input type="radio" id="scrum-master" name="job" value="Scrum Master">
+            <label for="scrum-master">Scrum Master</label><br>
+        </fieldset><br>
+        <input type="reset" value="Empty">
+
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+
+</html>
